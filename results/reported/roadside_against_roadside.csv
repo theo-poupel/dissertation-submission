@@ -1,0 +1,13 @@
+quantity,estimate_pct,ci_lo_pct,ci_hi_pct,excludes_zero,analytic_se_log,bootstrap_se_log,usable_draws,series,window,construction,months
+July 2019 ring-road step,15.526,2.73,31.441,True,0.03543,0.05884,2000,normalised,January 2013 to August 2022,full-history primary,102
+June 2021 additional ring-road step,-3.839,-16.288,10.334,False,0.01279,0.06945,2000,normalised,January 2013 to August 2022,full-history primary,102
+July 2019 ring-road step,15.419,4.036,31.24,True,0.03505,0.05864,2000,normalised,January 2013 to December 2025,"full-history, extended endpoint",142
+June 2021 additional ring-road step,-9.813,-20.508,0.859,False,0.02956,0.06026,2000,normalised,January 2013 to December 2025,"full-history, extended endpoint",142
+July 2019 ring-road step,5.646,2.827,9.329,True,0.01033,0.01634,2000,normalised,January 2019 to August 2022,near-event sensitivity,44
+June 2021 additional ring-road step,-3.535,-7.502,0.601,False,0.01324,0.02097,2000,normalised,January 2019 to August 2022,near-event sensitivity,44
+July 2019 ring-road step,15.667,-2.582,42.221,False,0.06308,0.09355,2000,raw,January 2013 to August 2022,full-history primary,102
+June 2021 additional ring-road step,-11.532,-29.102,10.964,False,0.03804,0.10994,2000,raw,January 2013 to August 2022,full-history primary,102
+July 2019 ring-road step,15.476,-0.685,40.953,False,0.06177,0.08742,2000,raw,January 2013 to December 2025,"full-history, extended endpoint",142
+June 2021 additional ring-road step,-15.036,-30.779,0.073,False,0.03916,0.08896,2000,raw,January 2013 to December 2025,"full-history, extended endpoint",142
+July 2019 ring-road step,4.036,-13.464,22.218,False,0.06138,0.09061,2000,raw,January 2019 to August 2022,near-event sensitivity,44
+June 2021 additional ring-road step,-11.784,-20.955,1.092,False,0.04308,0.06364,2000,raw,January 2019 to August 2022,near-event sensitivity,44

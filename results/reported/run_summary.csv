@@ -1,0 +1,12 @@
+item,value
+mode,normalised
+commit,a7b4d04-dirty
+seed,42
+bootstrap draws,2000
+stations,11
+"station-months, full record",1113
+"station-months, primary sample",516
+pre-treatment assessment,bounded reporting
+false-onset checks,"4 usable, 1 not used"
+main model coefficient,"+13.66% [+5.48, +23.28]"
+interpretation,bounded by pre-treatment assessment

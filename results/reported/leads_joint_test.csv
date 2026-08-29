@@ -1,0 +1,2 @@
+terms_tested,chi2_bootstrap,p_bootstrap_governs,p_analytic_crosscheck,agree
+6,12.639,0.0491,0.0053,True

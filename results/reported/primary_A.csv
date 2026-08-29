@@ -1,0 +1,2 @@
+quantity,estimate_pct,ci_lo_pct,ci_hi_pct,excludes_zero,analytic_se_log,bootstrap_se_log,usable_draws,blocks_calendar_years,station_months,stations
+"Primary A: Paris after July 2017, against comparators",13.661,5.483,23.281,True,0.05339,0.03984,2000,10,516,9

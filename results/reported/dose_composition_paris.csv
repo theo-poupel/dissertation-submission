@@ -1,0 +1,17 @@
+year,step,class,share,banned
+2016,unclassified banned,Crit'Air E,0.0021,False
+2016,unclassified banned,Crit'Air 1,0.1571,False
+2016,unclassified banned,Crit'Air 2,0.3648,False
+2016,unclassified banned,Crit'Air 3,0.2831,False
+2016,unclassified banned,Crit'Air 4,0.0727,False
+2016,unclassified banned,Crit'Air 5,0.0213,False
+2016,unclassified banned,Non classé,0.099,True
+2016,unclassified banned,Inconnu,0.0,False
+2019,Crit'Air 4 added,Crit'Air E,0.0075,False
+2019,Crit'Air 4 added,Crit'Air 1,0.2792,False
+2019,Crit'Air 4 added,Crit'Air 2,0.367,False
+2019,Crit'Air 4 added,Crit'Air 3,0.2246,False
+2019,Crit'Air 4 added,Crit'Air 4,0.0543,True
+2019,Crit'Air 4 added,Crit'Air 5,0.0125,True
+2019,Crit'Air 4 added,Non classé,0.0548,True
+2019,Crit'Air 4 added,Inconnu,0.0,False

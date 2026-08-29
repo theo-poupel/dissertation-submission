@@ -1,0 +1,6 @@
+placebo,coefficient,resampled_se,ratio,as_large_as_headline,sample,station_months
+Paris start moved to 2014-01,-0.0564,0.0438,1.288,False,before July 2017; precursor controlled separately,207
+Paris start moved to 2015-01,-0.04,0.0396,1.01,False,before July 2017; precursor controlled separately,207
+Paris start moved to 2016-01,0.0263,0.0629,0.418,False,before July 2017; precursor controlled separately,207
+"Shared Lyon-Marseille onset, 2022-09 (not used)",,,,,"both cities treated together, so there is no untreated comparison",0
+"Lyon versus Marseille, invented start 2018-01",0.0847,0.039,2.171,False,comparator cities through August 2022; neither treated,392

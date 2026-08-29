@@ -1,0 +1,10 @@
+omitted,city,estimate_pct,change_from_main,station_months_left,stations_left,status
+FR20062,Lyon,14.256,0.595,402,8,estimated
+FR03043,Marseille,13.954,0.293,406,8,estimated
+FR20046,Lyon,13.449,-0.212,407,8,estimated
+FR20017,Lyon,13.658,-0.003,489,8,estimated
+FR03014,Marseille,13.663,0.002,484,8,estimated
+FR04055,Paris,13.662,0.001,486,8,estimated
+FR04004,Paris,13.661,-0.0,508,8,estimated
+FR04131,Paris,13.661,0.0,508,8,estimated
+FR04143,Paris,,,438,8,not estimable: exog does not have full column rank. If you wish to proceed with model estimatio

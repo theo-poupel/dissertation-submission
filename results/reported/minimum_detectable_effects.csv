@@ -1,0 +1,4 @@
+design,bootstrap_se_log,mde_log,smallest_detectable_reduction_pct,station_months,note
+"Paris alone, before against after",0.04647,0.13011,12.2,41,"no comparator city; 1 station in the pre-window, so station effects are omitted as they would absorb the only station entirely"
+"full design, weather-adjusted series",0.0434,0.12153,11.444,162,"three cities, station and common calendar effects"
+"full design, unadjusted series",0.1037,0.29035,25.2,162,"same design, other series; the pair measures what the weather modelling is worth"

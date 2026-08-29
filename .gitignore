@@ -1,0 +1,36 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+.env
+.env.*
+!.env.example
+.cdsapirc
+.venv/
+venv/
+
+# Large source data. See data/README.md for acquisition instructions.
+data/raw/
+data/raw_no2_hist/
+data/raw_no2_verified/
+data/raw_london/
+data/london_meta.csv
+data/interim/
+data/dose/raw/
+
+Donnee_pm2.5_paris/
+Donnee_pm2.5_lyon/
+Donnee_pm2.5_marseille/
+Donnee_pm2.5_petitecouronne/
+
+# Non-reported and local outputs.
+results/quarantine/
+results/normalised/
+old_results/
+
+# Local working material.
+repo_data_inventory.txt
+*.tmp
+~$*
+

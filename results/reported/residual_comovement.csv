@@ -1,0 +1,4 @@
+city,Paris,Lyon,Marseille
+Paris,1.0,0.809,0.585
+Lyon,0.809,1.0,0.784
+Marseille,0.585,0.784,1.0

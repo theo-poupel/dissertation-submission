@@ -1,0 +1,7 @@
+quantity,estimate_pct,ci_lo_pct,ci_hi_pct,excludes_zero,analytic_se_log,bootstrap_se_log,usable_draws,window,construction,months,station_months
+July 2019 ring-road step,10.259,-6.852,28.779,False,0.06648,0.08279,2000,January 2013 to August 2022,full-history primary,116,207
+June 2021 additional ring-road step,3.115,-17.623,22.397,False,0.04916,0.10061,2000,January 2013 to August 2022,full-history primary,116,207
+July 2019 ring-road step,10.259,-5.812,28.023,False,0.06491,0.07912,2000,January 2013 to December 2025 (Marseille confound after August 2022),"full-history, extended endpoint",156,287
+June 2021 additional ring-road step,0.533,-13.321,17.171,False,0.05407,0.0784,2000,January 2013 to December 2025 (Marseille confound after August 2022),"full-history, extended endpoint",156,287
+July 2019 ring-road step,27.494,22.101,34.163,True,0.05235,0.02528,2000,January 2019 to August 2022,near-event sensitivity,44,81
+June 2021 additional ring-road step,3.115,-7.599,10.783,False,0.04947,0.04683,2000,January 2019 to August 2022,near-event sensitivity,44,81

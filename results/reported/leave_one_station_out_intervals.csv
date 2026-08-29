@@ -1,0 +1,4 @@
+quantity,estimate_pct,ci_lo_pct,ci_hi_pct,excludes_zero,analytic_se_log,bootstrap_se_log,usable_draws,omitted,city
+Omit FR20062,14.256,5.828,23.187,True,0.0516,0.03832,2000,FR20062,Lyon
+Omit FR03043,13.954,6.222,26.747,True,0.05715,0.04543,2000,FR03043,Marseille
+Omit FR20046,13.449,3.673,24.037,True,0.06835,0.04706,2000,FR20046,Lyon

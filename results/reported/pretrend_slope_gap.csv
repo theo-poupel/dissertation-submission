@@ -1,0 +1,2 @@
+quantity,estimate_pct_yr,ci_lo_pct_yr,ci_hi_pct_yr,m_furthest_edge,category,blocks_calendar_years,usable_draws,station_months
+"Paris minus pooled comparators, pre-treatment slope",-1.915,-5.83,3.238,5.83,bounded reporting,4,2000,162

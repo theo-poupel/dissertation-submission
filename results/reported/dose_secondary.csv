@@ -1,0 +1,5 @@
+quantity,estimate_pct,ci_lo_pct,ci_hi_pct,excludes_zero,analytic_se_log,bootstrap_se_log,usable_draws
+Paris: effect per ten percentage points of prohibited fleet share,4.637,-1.81,11.782,False,0.0385,0.03293,2000
+Lyon: effect per ten percentage points of prohibited fleet share,6.349,2.512,11.308,True,0.03122,0.02132,2000
+Marseille: effect per ten percentage points of prohibited fleet share,8.347,-2.114,21.5,False,0.05062,0.05553,2000
+Pooled: effect per ten percentage points of prohibited fleet share,5.867,2.182,10.544,True,0.024,0.02039,2000

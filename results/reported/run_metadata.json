@@ -1,0 +1,74 @@
+{
+  "run_hash": "a7b4d04-dirty",
+  "mode": "normalised",
+  "started": "2026-08-29T13:17:49",
+  "finished": "2026-08-29T13:58:28",
+  "seed": 42,
+  "bootstrap_draws": 2000,
+  "driscoll_kraay_bandwidth": 18,
+  "full_window": [
+    "2013-01-01",
+    "2025-12-31"
+  ],
+  "primary_sample": [
+    "2013-01-01",
+    "2022-08-31"
+  ],
+  "gates": [
+    {
+      "gate": "station screening",
+      "result": "PASS",
+      "detail": "all eleven stations pass; smallest guard factor 1.59"
+    },
+    {
+      "gate": "pre-treatment slope gap",
+      "result": "FAIL",
+      "detail": "furthest interval edge 5.830 percentage points per year, category: bounded reporting"
+    },
+    {
+      "gate": "leads test",
+      "result": "FAIL",
+      "detail": "joint test that the 6 pre-policy half-years are zero, p 0.049 under the resampled covariance"
+    },
+    {
+      "gate": "combined pre-trend gates",
+      "result": "FAIL",
+      "detail": "slope gap gives 'bounded reporting', leads escalate, reporting mode: bounded reporting"
+    },
+    {
+      "gate": "false-onset checks",
+      "result": "PASS",
+      "detail": "largest usable ratio 2.17 versus main-model ratio 3.21"
+    }
+  ],
+  "notes": [
+    "Panel built in normalised mode: 1113 station-months, 11 stations, 2013-01 to 2025-12.",
+    "Largest unknown-class share: 4.98e-05; largest count: 10 vehicles.",
+    "Dose is the share of the local private-car fleet in classes banned in that station's perimeter, reported per ten percentage points in the models. Stations outside a restricted perimeter carry zero throughout. Fleet figures are final through the 2023 edition and provisional after.",
+    "The Paris dose at each step is the sum of the shares marked banned. Reading the two years together shows how much comes from adding a class and how much from the fleet having turned over in between.",
+    "The fitted weather adjustment is not flagged by this 5% screening test. This does not prove that treatment information is absent.",
+    "S8 separately checks sensitivity to the time features in the weather models.",
+    "Pre-window bootstrap: 86.5% same-month donor, 13.5% same-station donor-year fallback, 0.0% station-pool fallback; residual scale 1.1818; 2000 of 2000 fits used.",
+    "Paris contributes 1 background station(s) to the pre-treatment window (FR04143), against 3 across the comparators, so the Paris side of this gap is the less precisely estimated of the two.",
+    "Event study bootstrap: 74.8% same-month donor, 6.5% same-station donor-year fallback, 18.7% station-pool fallback; residual scale 1.1762; 2000 of 2000 fits used.",
+    "The leads test is a screening rule. A result above 5% does not prove that the pre-treatment paths were parallel.",
+    "Unexplained monthly movement is correlated across the cities, 0.58 to 0.81, weakest between the two furthest apart. That is consistent with regional episodes reaching all three together, which is what the comparison assumes; it is supporting evidence rather than proof.",
+    "Primary estimate bootstrap: 74.8% same-month donor, 6.5% same-station donor-year fallback, 18.7% station-pool fallback; residual scale 1.1503; 2000 of 2000 fits used.",
+    "The pre-treatment assessment is bounded. This coefficient is shown as a model output, not as a stand-alone causal answer.",
+    "Precursor segment (mid-2016 to mid-2017) held separately: +0.13 percent, standard error 0.0491. It is not part of the main estimate and is reported so the period is visibly accounted for rather than absorbed into either side of the comparison.",
+    "Both inference methods agree on whether the effect is distinguishable from zero.",
+    "Half-yearly estimates: 6 before the restriction, 2 covering the earlier partial measure, 11 after. Mean after +35.00 percent, range +1.28 to +66.24.",
+    "City-specific dose model bootstrap: 70.5% same-month donor, 3.3% same-station donor-year fallback, 26.3% station-pool fallback; residual scale 1.1215; 2000 of 2000 fits used.",
+    "The city-specific coefficients allow different dose associations. The pooled coefficient imposes one common association and is shown only as a comparison.",
+    "Across the selected stations, the average monthly fitted-component variation is 0.81% to 0.84% of the station level. This is a model-stability diagnostic, not an adjustment to the panel interval.",
+    "Equal city-month weighting: Paris contributes 8 of 12 months in 2019. Missing month numbers: [2, 9, 10, 11].",
+    "Meteorology-only estimate +9.52% versus main-model estimate +13.66%; difference -4.14 percentage points.",
+    "No scalar treatment coefficient is estimated for the surrounding-area panel because the included communes do not share one verified onset.",
+    "Across the 6 variants with a comparable estimate, the main-model estimate of +13.66 percent moves at most -4.14 points, under 'S8 meteorology-only normalisation'. Unavailable variants are listed with the reason.",
+    "Main-model comparison ratio: +0.1280 / 0.0398 = 3.21.",
+    "The primary mechanism window ends before Marseille's restriction. The full-window coefficients may be affected by Marseille's treated background area. The joint lead test governs interpretation: rejection means that the mechanism coefficients remain supporting rather than causal, even if an interval excludes zero.",
+    "Only one roadside station is available in each city, so site-specific changes cannot be separated from changes in traffic. The direct lead test must also be considered before interpreting the step estimates. A rejected lead test makes the coefficients supporting rather than causal.",
+    "The full design detects a reduction of 11.4 percent on the better of the two series against 25.2 percent on the other, so the weather modelling changes what is detectable by 13.8 percentage points. Paris alone, without a comparator, needs 12.2 percent.",
+    "The results files are written after the exploratory diagnostics below."
+  ]
+}

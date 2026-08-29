@@ -1,0 +1,10 @@
+sensitivity,estimate_pct,ci_lo_pct,ci_hi_pct,shift_from_headline,station_months,stations,note
+"S1 commune-boundary variant, Lyon station outside the city removed",13.449,3.673,24.037,-0.212,407,8,also serves as the check on that station's 2024 record gap
+S2 equal city-month weighting,13.74,5.346,22.817,0.079,516,9,each represented city receives equal total weight in each month
+S3 longest-record stations only,13.449,2.755,24.693,-0.212,332,4,"FR04143, FR04055, FR20062, FR03043; Paris pair kept separate, each with its own fixed effect"
+"S4 earlier era only, to end 2019",13.744,4.865,24.755,0.083,320,5,December 2019 still uses the replacement Paris station; the pandemic and later years are removed
+S5 pandemic months excluded,13.702,3.606,24.755,0.041,427,9,March 2020 to June 2021 dropped
+"S6 Olympics period, full window",13.704,,,,815,9,"summer 2024 held separately, its own coefficient -9.86 percent; excluding those months instead gives +13.70 percent"
+"S7 final year excluded, full window",13.706,,,,721,9,2025 carries a further restriction step and provisional fleet data; including it gives +13.71 percent
+S8 meteorology-only normalisation,9.516,3.456,15.372,-4.145,516,9,all time features removed; broad sensitivity rather than a leakage bound
+S9 surrounding-area comparison,,,,,484,4,descriptive path reported in P2; no common verified legal onset

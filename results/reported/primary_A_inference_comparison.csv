@@ -1,0 +1,3 @@
+method,estimate_pct,ci_lo_pct,ci_hi_pct,excludes_zero,p_value
+resampled (governs),13.661,5.483,23.281,True,
+"analytic, correlation-corrected",13.661,2.369,26.198,True,0.0169

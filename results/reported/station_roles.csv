@@ -1,0 +1,12 @@
+station,city,tier,onset,perimeter,anchor
+FR04143,Paris,attribution,2017-07-01,Paris proper,True
+FR04055,Paris,attribution,2017-07-01,Paris proper,True
+FR04004,Paris,attribution,2017-07-01,Paris proper,False
+FR04131,Paris,attribution,2017-07-01,Paris proper,False
+FR20062,Lyon,attribution,2022-09-01,Lyon,True
+FR20017,Lyon,attribution,2022-09-01,Lyon,False
+FR20046,Lyon,attribution,2022-09-01,Lyon,False
+FR03043,Marseille,attribution,2022-09-01,Marseille,True
+FR03014,Marseille,attribution,2022-09-01,Marseille,False
+FR04329,Paris,mechanism,2019-07-01,ring road,True
+FR03006,Marseille,mechanism,2022-09-01,Marseille,True
