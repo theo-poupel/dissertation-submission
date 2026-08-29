@@ -18,6 +18,8 @@ The exploratory notebook can refresh the global metadata file. Refreshing is unn
 
 Source: [Geod'Air](https://www.geodair.fr/), the French national air-quality database. Geod'Air also documents its [data API](https://www.geodair.fr/donnees/api).
 
+Each hourly file used in the reported run was exported as a separate calendar-year query using interface bounds from 01 January at 01:00 to 31 December at 23:00. In the resulting CSV files, the parsed `Date de début` labels run from 00:00 to 22:00. Boundary hours were not imputed. A boundary check confirmed that the omitted hour could not change the pass or fail status of any Paris, Lyon or Marseille station-month under the 75% capture rule.
+
 Keep the original quoted, semicolon-separated CSV format. The notebooks expect the following layout:
 
 ```text
