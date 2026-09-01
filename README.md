@@ -68,4 +68,4 @@ The lead diagnostics in notebook 06 bound the interpretation of the mechanism es
 
 ## Reproducible release
 
-The repository is named `dissertation-submission`. The dissertation should link to its fixed `v1.0` release, rather than relying only on the changing `main` branch. The release tag fixes the exact notebooks, environment description and reported tables supplied to the examiner.
+The repository is named `dissertation-submission`. The dissertation links to its fixed `v1.1` release, rather than relying only on the changing `main` branch. The release tag fixes the exact notebooks, environment description and reported tables supplied to the examiner.
